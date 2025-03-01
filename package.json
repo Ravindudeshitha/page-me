@@ -1,6 +1,6 @@
 {
   "name": "page-me",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "Simple Pagination",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -53,11 +53,11 @@
     "storybook": "^8.6.2",
     "tslib": "^2.6.3",
     "typescript": "^5.5.4",
-    "vitest": "^3.0.7"
-  },
-  "dependencies": {
+    "vitest": "^3.0.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "rollup-plugin-postcss": "^4.0.2"
+  },
+  "dependencies": {
   }
 }
