@@ -1,0 +1,77 @@
+/* style3.css */
+.paginationContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .tableContainer {
+    width: 100%;
+    overflow-x: auto;
+  }
+  .tableContainerCustom {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .paginationControls {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .paginationControls button {
+    padding: 8px 15px;
+    cursor: pointer;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .paginationControls button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+  
+  .paginationControls .activePage {
+    background-color: #ff6347;
+    color: white;
+  }
+  
+  .paginationControls .dots {
+    padding: 5px;
+    color: #bbb;
+  }
+  
+  /* Table Styling */
+  .tableContainer table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .tableContainer table th, .tableContainer table td {
+    padding: 12px 15px;
+    border: 1px solid #444;
+    text-align: left;
+  }
+  
+  .tableContainer table th {
+    background-color: #555;
+    color: white;
+  }
+  
+  .tableContainer table tr:nth-child(even) {
+    background-color: #444;
+  }
+  
+  .tableContainer table tr:hover {
+    background-color: #666;
+  }
+  

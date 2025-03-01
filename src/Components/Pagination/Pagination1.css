@@ -1,0 +1,74 @@
+/* style1.css */
+.paginationContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .tableContainer {
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .tableContainerCustom {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .paginationControls {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .paginationControls button {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .paginationControls button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+  
+  .paginationControls .activePage {
+    background-color: #0056b3;
+  }
+  
+  .paginationControls .dots {
+    padding: 5px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  /* Table Styling */
+  .tableContainer table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .tableContainer table th, .tableContainer table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .tableContainer table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .tableContainer table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .tableContainer table tr:hover {
+    background-color: #f1f1f1;
+  }
+  

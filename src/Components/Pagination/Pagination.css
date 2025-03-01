@@ -1,0 +1,36 @@
+.paginationContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tableContainer {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.paginationControls {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.paginationControls button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.paginationControls button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.paginationControls .activePage {
+  background-color: #007bff;
+  color: white;
+}
+
+.paginationControls .dots {
+  padding: 5px;
+}
